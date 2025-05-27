@@ -11,8 +11,8 @@ const Projects = ({ t }) => {
     {
       id: 'portfolio',
       image: 'https://res.cloudinary.com/dv2brrhll/image/upload/v1748333129/My_ChatGPT_image_quuzy8.png',
-      github: 'https://github.com/evyatar-shlar/portfolio',
-      demo: 'https://evyatar-shlar.dev'
+      github: 'https://github.com/evyatarshlar/Portfolio',
+      demo: 'https://evyatarshlar.github.io/Portfolio/'
     }
   ];
 

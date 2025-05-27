@@ -20,9 +20,18 @@ export const translations = {
       experience: 'Professional Experience',
       bootcamp: 'Full-Stack Bootcamp Graduate',
       bootcampDesc: '640-hour intensive program emphasizing best practices, clean code, and Agile workflow',
-      languages: 'Languages',
-      hebrew: 'Hebrew - Native',
-      english: 'English - Proficient'
+      additionalTitle: "More About Me",
+      additionalInfo: {
+        line1: "I'm not just a developer - I'm a self-motivated fast learner who adapts quickly to new technologies and environments.",
+        line2: "I thrive in collaborative settings and enjoy tackling challenges - whether technical or user-centered.",
+        line3: "My journey includes roles in B2B sales, accounting, and procurement - equipping me with strong communication and time management skills.",
+        line4: "I'm always looking for new opportunities to grow and contribute, and excited to bring my skills to your team."
+      },
+      stats: {
+        hours: "Hours of Training",
+        experience: "Years Experience",
+        projects: "Projects Completed"
+      }
     },
     skills: {
       title: 'Technical Skills',
@@ -81,9 +90,18 @@ export const translations = {
       experience: 'ניסיון מקצועי',
       bootcamp: 'בוגר בוטקאמפ Full-Stack',
       bootcampDesc: 'תוכנית אינטנסיבית בת 640 שעות עם דגש על שיטות עבודה מומלצות וקוד נקי',
-      languages: 'שפות',
-      hebrew: 'עברית - שפת אם',
-      english: 'אנגלית - שליטה טובה'
+      additionalTitle: "עוד קצת עליי",
+      additionalInfo: {
+        line1: "אני לא רק מפתח, אני לומד מהיר ובעל מוטיבציה עצמית, שמסתגל במהירות לטכנולוגיות וסביבות חדשות.",
+        line2: "אני משגשג בעבודה בצוות ואוהב להתמודד עם אתגרים טכניים או כאלה שמצריכים פתרונות מותאמים למשתמש.",
+        line3: "הניסיון שלי כולל גם תפקידי מכירות B2B, הנהלת חשבונות וניהול רכש, שהקנו לי מיומנויות תקשורת, שירות לקוחות וניהול זמן.",
+        line4: "אני כל הזמן שואף ללמוד, לצמוח ולתרום - ומביא איתי שילוב של חשיבה טכנולוגית, גמישות ונכונות לעשייה."
+      },
+      stats: {
+        hours: "שעות הכשרה",
+        experience: "שנות ניסיון",
+        projects: "פרויקטים שבוצעו"
+      }
     },
     skills: {
       title: 'כישורים טכנולוגיים',
