@@ -64,3 +64,21 @@ a[data-tooltip]:hover::before {
     padding: 2rem 1rem;
   }
 }
+
+
+
+// .mobile-only {
+//   display: none;
+
+//   @media (max-width: 767px) {
+//     display: inline-block;
+//   }
+// }
+
+// .desktop-only {
+//   display: inline-block;
+
+//   @media (max-width: 767px) {
+//     display: none;
+//   }
+// }

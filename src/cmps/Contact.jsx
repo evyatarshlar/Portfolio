@@ -8,11 +8,14 @@ const Contact = ({ t }) => {
         <div className="contact-content">
           <div className="contact-info animate-on-scroll">
             <div className="contact-links">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=evyatar.szlar@gmail.com" target="_blank" rel="noopener noreferrer" data-tooltip={t.contact.mail}>
+              <a className="desktop-only" href="https://mail.google.com/mail/?view=cm&fs=1&to=evyatar.szlar@gmail.com" target="_blank" rel="noopener noreferrer" data-tooltip={t.contact.mail}>
                 <Mail size={24} />
               </a>
               <a href="https://github.com/evyatarshlar" target="_blank" rel="noopener noreferrer" data-tooltip={t.contact.github}>
                 <Github size={24} />
+              </a>
+              <a className="mobile-only" href="mailto:evyatar.szlar@gmail.com" target="_blank" rel="noopener noreferrer" data-tooltip={t.contact.mail}>
+                <Mail size={24} />
               </a>
               <a href="https://www.linkedin.com/in/evyatar-shlar-62074030b/" target="_blank" rel="noopener noreferrer" data-tooltip={t.contact.linkedin}>
                 <Linkedin size={24} />
