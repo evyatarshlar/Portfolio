@@ -65,20 +65,18 @@ a[data-tooltip]:hover::before {
   }
 }
 
+.mobile-only {
+  display: none;
 
+  @media (max-width: 767px) {
+    display: inline-block;
+  }
+}
 
-// .mobile-only {
-//   display: none;
+.desktop-only {
+  display: inline-block;
 
-//   @media (max-width: 767px) {
-//     display: inline-block;
-//   }
-// }
-
-// .desktop-only {
-//   display: inline-block;
-
-//   @media (max-width: 767px) {
-//     display: none;
-//   }
-// }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
