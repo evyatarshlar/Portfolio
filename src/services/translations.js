@@ -52,6 +52,17 @@ export const translations = {
         desc: 'Responsive portfolio website with internationalization and dark mode support',
         tech: 'React • SCSS • i18n'
       },
+       smartplay: {
+        title: 'Educational games Website',
+        desc: 'Educational games platform with AI creation for kids to learn letters, numbers, and shapes',
+        tech: 'React • Tailwind • Base44'
+      },
+       meme: {
+        title: 'Meme Generator Website',
+        desc: 'Create humorous memes with text, emojis & images. Fun and easy!',
+        tech: 'Canvas • JavaScript • CSS'
+      },
+
       ecommerce: {
         title: 'E-Commerce Platform',
         desc: 'Modern shopping platform with payment integration and admin dashboard',
@@ -122,6 +133,17 @@ export const translations = {
         desc: 'אתר תיק עבודות רספונסיבי עם תמיכה בינלאומית ומצב חשוך',
         tech: 'React • SCSS • i18n'
       },
+        smartplay: {
+        title: 'אתר משחקים חינוכיים',
+        desc: 'פלטפורמה למשחקים חינוכיים עם יצירה ב-AI, ללימוד אותיות, מספרים וצורות',
+        tech: 'React • Tailwind • Base44'
+      },
+       meme: {
+        title: 'אתר ליצירת ממים',
+        desc: 'צור ממים הומוריסטיים עם טקסט, אימוג\'ים ותמונות. כיף וקל!',
+        tech: 'Canvas • JavaScript • CSS'
+      },
+
       ecommerce: {
         title: 'פלטפורמת מסחר אלקטרוני',
         desc: 'פלטפורמת קנייה מודרנית עם אינטגרציית תשלומים ולוח בקרה',
