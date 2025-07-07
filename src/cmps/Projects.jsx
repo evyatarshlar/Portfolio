@@ -8,6 +8,7 @@ const Projects = ({ t }) => {
       github: 'https://github.com/evyatarshlar/bestbnb',
       demo: 'https://bestbnb.onrender.com/'
     },
+    
     {
       id: 'portfolio',
       image: 'https://res.cloudinary.com/dv2brrhll/image/upload/v1748333129/My_ChatGPT_image_quuzy8.png',
