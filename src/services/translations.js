@@ -22,10 +22,10 @@ export const translations = {
       bootcampDesc: '640-hour intensive program emphasizing best practices, clean code, and Agile workflow',
       additionalTitle: "More About Me",
       additionalInfo: {
-        line1: "I'm not just a developer - I'm a self-motivated fast learner who adapts quickly to new technologies and environments.",
-        line2: "I thrive in collaborative settings and enjoy tackling challenges - whether technical or user-centered.",
-        line3: "My journey includes roles in B2B sales, accounting, and procurement - equipping me with strong communication and time management skills.",
-        line4: "I'm always looking for new opportunities to grow and contribute, and excited to bring my skills to your team."
+        line1: "I have hands-on experience building complex full-stack applications such as Bestbnb (Airbnb clone), Yomi (Daily Talmud Learning Platform), and SmartPlay (AI-powered educational games). I focus on scalable, maintainable code and seamless user experiences.",
+        line2: "I leverage AI tools to optimize workflows and improve code quality, and actively monitor and fix issues using Sentry.",
+        line3: "I'm not just a developer - I'm a self-motivated fast learner who adapts quickly to new technologies and environments.",
+        line4: "I thrive in collaborative settings and enjoy tackling challenges - whether technical or user-centered."
       },
       stats: {
         hours: "Hours of Training",
@@ -45,7 +45,7 @@ export const translations = {
       bestbnb: {
         title: 'Bestbnb - Airbnb Clone',
         desc: 'Full-featured e-commerce marketplace application built with React, Node.js, and MongoDB',
-        tech: 'React • Node.js • MongoDB • Express'
+        tech: 'React • Node.js • Redux • MongoDB • Express'
       },
       portfolio: {
         title: 'Portfolio Website',
@@ -107,11 +107,11 @@ export const translations = {
       bootcamp: 'בוגר בוטקאמפ Full-Stack',
       bootcampDesc: 'תוכנית אינטנסיבית בת 640 שעות עם דגש על שיטות עבודה מומלצות וקוד נקי',
       additionalTitle: "עוד קצת עליי",
-      additionalInfo: {
-        line1: "אני לא רק מפתח, אני לומד מהיר ובעל מוטיבציה עצמית, שמסתגל במהירות לטכנולוגיות וסביבות חדשות.",
-        line2: "אני משגשג בעבודה בצוות ואוהב להתמודד עם אתגרים טכניים או כאלה שמצריכים פתרונות מותאמים למשתמש.",
-        line3: "הניסיון שלי כולל גם תפקידי מכירות B2B, הנהלת חשבונות וניהול רכש, שהקנו לי מיומנויות תקשורת, שירות לקוחות וניהול זמן.",
-        line4: "אני כל הזמן שואף ללמוד, לצמוח ולתרום - ומביא איתי שילוב של חשיבה טכנולוגית, גמישות ונכונות לעשייה."
+      additionalInfo: {    
+        line1: "צברתי ניסיון מעשי בפיתוח אפליקציות Full-Stack מורכבות כגון Bestbnb (שיבוט Airbnb), יומי (פלטפורמת לימוד יומי בגמרא), ו‑SmartPlay (משחקים חינוכיים עם בינה מלאכותית). אני מתמקד בקוד סקלאבילי, נקי וחוויית משתמש חלקה.",
+        line2: "אני משתמש בכלי AI לייעול תהליכים ולשיפור איכות הקוד, ומטפל באופן פעיל בבאגים באמצעות Sentry.",
+        line3: "אני לא רק מפתח, אני לומד מהיר ובעל מוטיבציה עצמית, שמסתגל במהירות לטכנולוגיות וסביבות חדשות.",
+        line4: "אני משגשג בעבודה בצוות ואוהב להתמודד עם אתגרים טכניים או כאלה שמצריכים פתרונות מותאמים למשתמש."
       },
       stats: {
         hours: "שעות הכשרה",
@@ -131,7 +131,7 @@ export const translations = {
       bestbnb: {
         title: 'Bestbnb - שיבוט Airbnb',
         desc: 'אפליקציית מרקטפלייס מסחר אלקטרוני מלאה הבנויה עם React, Node.js ו-MongoDB',
-        tech: 'React • Node.js • MongoDB • Express'
+        tech: 'React • Node.js • Redux • MongoDB • Express'
       },
       portfolio: {
         title: 'אתר תיק עבודות',

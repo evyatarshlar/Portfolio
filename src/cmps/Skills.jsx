@@ -2,10 +2,10 @@ import { Code, Server, Database, Globe } from 'lucide-react';
 
 const Skills = ({ t }) => {
   const skills = {
-    frontend: ['React.js', 'Angular', 'Vue.js', 'JavaScript ES6+', 'HTML5', 'CSS3/SCSS/Tailwind','TypeScript', 'Next.js'],
-    backend: ['Node.js', 'Express.js', 'REST APIs', 'Python','Base44'],
+    frontend: ['React.js', 'Redux', 'Angular', 'Vue.js', 'JavaScript ES6+', 'HTML5', 'CSS3/SCSS/Tailwind','TypeScript', 'Next.js'],
+    backend: ['Node.js', 'Express.js', 'REST APIs', 'Python'],
     database: ['MongoDB', 'MySQL'],
-    tools: ['Git', 'Webpack', 'Agile', 'QuickBooks']
+    tools: ['Git', 'Sentry', 'AI Optimization', 'Webpack', 'Agile', 'QuickBooks', 'Base44']
   };
 
   return (

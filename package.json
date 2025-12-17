@@ -9,9 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "copy-docs": "rm -rf docs && mkdir docs && cp -r dist/* docs/",
-    "update-site": "npm run build && npm run copy-docs" 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.510.0",

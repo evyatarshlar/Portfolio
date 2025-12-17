@@ -1,44 +1,3 @@
-// import { Trans, useTranslation } from 'react-i18next'
-// import { NavLink } from 'react-router-dom'
-
-// export function AppHeader() {
-//   const { t, i18n } = useTranslation()
-
-//   const lngs = {
-//     en: { nativeName: 'English' },
-//     es: { nativeName: 'Spanish' },
-//   }
-
-//   return (
-//     <section className="app-header">
-//       <div className="flex justify-between">
-//         <nav>
-//           <NavLink to="/">{t('home')}</NavLink> |
-//           <NavLink to="/toy">{t('toys')}</NavLink> |
-//           <NavLink to="/dashboard">{t('dashboard')}</NavLink> |
-//           <NavLink to="/about">{t('about')}</NavLink>
-//         </nav>
-//         <div>
-//           <Trans i18nKey="i18">{{ name: 'batel' }}</Trans>
-//           {Object.keys(lngs).map(lng => (
-//             <button
-//               type="submit"
-//               key={lng}
-//               onClick={() => i18n.changeLanguage(lng)}
-//               disabled={i18n.resolvedLanguage === lng}
-//             >
-//               {lngs[lng].nativeName}
-//             </button>
-//           ))}
-//         </div>
-//       </div>
-//       <div className="logo">Mister Toy</div>
-//     </section>
-//   )
-// }
-
-
-
 import i18n from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
@@ -89,7 +48,7 @@ i18n
       bestbnb: {
         title: 'Bestbnb - Airbnb Clone',
         desc: 'Full-featured e-commerce marketplace application built with React, Node.js, and MongoDB',
-        tech: 'React • Node.js • MongoDB • Express'
+        tech: 'React • Node.js • Redux • MongoDB • Express'
       },
       portfolio: {
         title: 'Portfolio Website',
@@ -153,7 +112,7 @@ i18n
       bestbnb: {
         title: 'Bestbnb - שיבוט Airbnb',
         desc: 'אפליקציית מרקטפלייס מסחר אלקטרוני מלאה הבנויה עם React, Node.js ו-MongoDB',
-        tech: 'React • Node.js • MongoDB • Express'
+        tech: 'React • Node.js • Redux • MongoDB • Express'
       },
       portfolio: {
         title: 'אתר תיק עבודות',
@@ -180,7 +139,6 @@ i18n
       },
     },
     lng: 'en', // Default language
-    fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // React already does escaping
     },
