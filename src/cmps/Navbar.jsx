@@ -11,10 +11,10 @@ const Navbar = ({ language, toggleLanguage, theme, toggleTheme, isMenuOpen, setI
         </div>
 
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''} ${isRTL ? 'rtl' : 'ltr'}`}>
-          <a href="#about" onClick={() => scrollToSection('about')} dir="auto">{t.nav.about}</a>
-          <a href="#skills" onClick={() => scrollToSection('skills')} dir="auto">{t.nav.skills}</a>
-          <a href="#projects" onClick={() => scrollToSection('projects')} dir="auto">{t.nav.projects}</a>
-          <a href="#contact" onClick={() => scrollToSection('contact')} dir="auto">{t.nav.contact}</a>
+          <a href="#about" onClick={() => scrollToSection('about')} dir="auto">{t('nav.about')}</a>
+          <a href="#skills" onClick={() => scrollToSection('skills')} dir="auto">{t('nav.skills')}</a>
+          <a href="#projects" onClick={() => scrollToSection('projects')} dir="auto">{t('nav.projects')}</a>
+          <a href="#contact" onClick={() => scrollToSection('contact')} dir="auto">{t('nav.contact')}</a>
         </div>
 
         <div className="nav-controls">

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { translations } from './services/translations';
+import { useTranslation } from 'react-i18next';
 import Navbar from './cmps/Navbar';
 import Hero from './cmps/Hero';
 import About from './cmps/About';
@@ -9,13 +9,17 @@ import Contact from './cmps/Contact';
 import Footer from './cmps/Footer';
 
 export function App(){
-  const [language, setLanguage] = useState('en');
+  const { t, i18n } = useTranslation();
   const [theme, setTheme] = useState('light');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const observerRef = useRef(null);
   const animatedElements = useRef(new Set());
-  const t = translations[language];
-  const isRTL = language === 'he';
+  const isRTL = i18n.language === 'he';
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'he' : 'en';
+    i18n.changeLanguage(newLang);
+  };
 
   useEffect(() => {
     const observerOptions = {
@@ -60,7 +64,7 @@ export function App(){
         }
       });
     }, 100);
-  }, [language]);
+  }, [i18n.language]);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme') || 'light';
@@ -75,12 +79,6 @@ export function App(){
     document.documentElement.setAttribute('data-theme', newTheme);
   };
 
-  const toggleLanguage = () => {
-    const newLang = language === 'en' ? 'he' : 'en';
-    setLanguage(newLang);
-    document.documentElement.setAttribute('dir', newLang === 'he' ? 'rtl' : 'ltr');
-  };
-
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -92,7 +90,7 @@ export function App(){
   return (
     <div className={`portfolio ${isRTL ? 'rtl' : ''}`} dir={isRTL ? 'rtl' : 'ltr'}>
       <Navbar
-        language={language}
+        language={i18n.language}
         toggleLanguage={toggleLanguage}
         theme={theme}
         toggleTheme={toggleTheme}

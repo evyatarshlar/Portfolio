@@ -5,12 +5,12 @@ const Projects = ({ t }) => {
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h2 className="section-title animate-on-scroll">{t.projects.title}</h2>
+        <h2 className="section-title animate-on-scroll">{t('projects.title')}</h2>
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card animate-on-scroll">
               <div className="project-image">
-                <img src={project.image} alt={t.projects[project.id].title} />
+                <img src={project.image} alt={t(`projects.${project.id}.title`)} />
                 <div className="project-overlay">
                   <div className="project-links">
                     {project.github && (
@@ -25,10 +25,10 @@ const Projects = ({ t }) => {
                 </div>
               </div>
               <div className="project-content">
-                <h3>{t.projects[project.id].title}</h3>
-                <p>{t.projects[project.id].desc}</p>
+                <h3>{t(`projects.${project.id}.title`)}</h3>
+                <p>{t(`projects.${project.id}.desc`)}</p>
                 <div className="project-tech">
-                  {t.projects[project.id].tech}
+                  {t(`projects.${project.id}.tech`)}
                 </div>
               </div>
             </div>

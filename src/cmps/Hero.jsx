@@ -4,16 +4,16 @@ const Hero = ({ t, scrollToSection }) => {
     <section id="hero" className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <p className="hero-greeting">{t.hero.greeting}</p>
-          <h1 className="hero-name">{t.hero.name}</h1>
-          <h2 className="hero-title">{t.hero.title}</h2>
-          <p className="hero-subtitle">{t.hero.subtitle}</p>
+          <p className="hero-greeting">{t('hero.greeting')}</p>
+          <h1 className="hero-name">{t('hero.name')}</h1>
+          <h2 className="hero-title">{t('hero.title')}</h2>
+          <p className="hero-subtitle">{t('hero.subtitle')}</p>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={() => scrollToSection('projects')}>
-              {t.hero.cta}
+              {t('hero.cta')}
             </button>
             <button className="btn btn-outline" onClick={() => scrollToSection('contact')}>
-              {t.hero.contact}
+              {t('hero.contact')}
             </button>
           </div>
         </div>
