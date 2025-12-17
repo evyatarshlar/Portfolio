@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "copy-docs": "rm -rf docs && mkdir docs && cp -r dist/* docs/",
+    "update-site": "npm run build && npm run copy-docs" 
   },
   "dependencies": {
     "i18next": "^25.7.3",
