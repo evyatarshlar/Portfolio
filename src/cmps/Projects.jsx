@@ -8,7 +8,6 @@ const Projects = ({ t }) => {
       github: 'https://github.com/evyatarshlar/bestbnb',
       demo: 'https://bestbnb.onrender.com/'
     },
-    
     {
       id: 'portfolio',
       image: 'https://res.cloudinary.com/dv2brrhll/image/upload/v1748333129/My_ChatGPT_image_quuzy8.png',
@@ -16,9 +15,13 @@ const Projects = ({ t }) => {
       demo: 'https://evyatarshlar.github.io/Portfolio/'
     },
      {
+      id: 'yomi',
+      image: 'https://res.cloudinary.com/dv2brrhll/image/upload/v1765970935/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2025-12-17_132832_dlqmey.png',
+      demo: 'https://yomi.org.il/onboarding/welcome'
+    },
+     {
       id: 'smartplay',
       image: 'https://res.cloudinary.com/dv2brrhll/image/upload/v1751148532/smartplay_logo_preview_rev_1_zquf3u.png',
-      github: 'https://github.com/evyatarshlar',
       demo: 'https://app--smart-play-kids-dd261dad.base44.app'
     },
      {
@@ -40,9 +43,11 @@ const Projects = ({ t }) => {
                 <img src={project.image} alt={t.projects[project.id].title} />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github size={20} />
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github size={20} />
+                      </a>
+                    )}
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink size={20} />
                     </a>

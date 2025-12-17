@@ -52,6 +52,11 @@ export const translations = {
         desc: 'Responsive portfolio website with internationalization and dark mode support',
         tech: 'React • SCSS • i18n'
       },
+     yomi: {
+       title: 'Daily Talmud Learning Platform',
+       desc: 'Web platform for daily Talmud learning with interactive frontend, backend logic, bug tracking via Sentry, and AI-assisted optimizations',
+       tech: 'Angular • Tailwind • NestJS • MongoDB'
+      },
        smartplay: {
         title: 'Educational games Website',
         desc: 'Educational games platform with AI creation for kids to learn letters, numbers, and shapes',
@@ -132,6 +137,11 @@ export const translations = {
         title: 'אתר תיק עבודות',
         desc: 'אתר תיק עבודות רספונסיבי עם תמיכה בינלאומית ומצב חשוך',
         tech: 'React • SCSS • i18n'
+      },
+      yomi: {
+        title: 'פלטפורמת לימוד יומי בגמרא',
+        desc: 'פלטפורמת ווב ללימוד יומי בגמרא עם ממשק אינטראקטיבי, לוגיקת Backend, טיפול בבאגים באמצעות Sentry ואופטימיזציות בעזרת AI',
+        tech: 'Angular • Tailwind • NestJS • MongoDB'
       },
         smartplay: {
         title: 'אתר משחקים חינוכיים',
