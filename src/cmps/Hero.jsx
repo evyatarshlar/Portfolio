@@ -20,7 +20,7 @@ const Hero = ({ t, scrollToSection }) => {
         <div className="hero-image">
           <div className="hero-avatar">
             <div className="avatar-placeholder">
-              <img src="https://res.cloudinary.com/dv2brrhll/image/upload/v1748333129/My_ChatGPT_image_quuzy8.png" alt="" />
+              <img src="https://res.cloudinary.com/dv2brrhll/image/upload/v1748333129/My_ChatGPT_image_quuzy8.png" alt="Evyatar Shlar - Full Stack Developer" />
             </div>
           </div>
         </div>

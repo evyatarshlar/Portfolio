@@ -1,13 +1,7 @@
 import { Code, Server, Database, Globe } from 'lucide-react';
+import { skills } from '../data/skills';
 
 const Skills = ({ t }) => {
-  const skills = {
-    frontend: ['React.js', 'Redux', 'Angular', 'Vue.js', 'JavaScript ES6+', 'HTML5', 'CSS3/SCSS/Tailwind','TypeScript', 'Next.js'],
-    backend: ['Node.js', 'Express.js', 'REST APIs', 'Python'],
-    database: ['MongoDB', 'MySQL'],
-    tools: ['Git', 'Sentry', 'AI Optimization', 'Webpack', 'Agile', 'QuickBooks', 'Base44']
-  };
-
   return (
     <section id="skills" className="skills">
       <div className="container">
