@@ -106,7 +106,7 @@ i18n
           },
           hero: {
             greeting: 'שלום, אני',
-            name: 'אביתר שלר😉',
+            name: 'אביתר שלר',
             title: 'מפתח Full-Stack',
             subtitle: 'בונה אפליקציות ווב מודרניות עם React, Node.js וטכנולוגיות מתקדמות',
             cta: 'צפה בעבודות',
